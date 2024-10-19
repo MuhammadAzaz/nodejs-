@@ -8,3 +8,4 @@ Router.get("/getUser", userController.getUser);
 Router.get("/createUser", validate(createUserSchema), userController.getUser);
 
 module.exports = Router;
+

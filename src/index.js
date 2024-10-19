@@ -13,6 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(helmet());
 app.use(cors());
 
+
 app.use("/api", require("./routes/routes"));
 
 // Authenticate database connection and start the server
