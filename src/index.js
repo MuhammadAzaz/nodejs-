@@ -25,6 +25,7 @@ db.sequelize
       logger.info(SERVER_START_MSG);
     });
   })
+  //anees comments 
   .catch((err) => {
     logger.err(`Unable to connect DB: ${err.message}`);
     process.exit(1);
